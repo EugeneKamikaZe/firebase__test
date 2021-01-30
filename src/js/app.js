@@ -1,7 +1,7 @@
-import {Question} from './question'
-import {createModal, isValid} from './utils'
-import './styles.css'
-import {authWithEmailAndPass, getAuthForm} from './auth'
+import {Question} from './components/question'
+import {createModal, isValid} from './components/utils'
+import {authWithEmailAndPass, getAuthForm} from './components/auth'
+import '../scss/main.scss'
 
 const form = document.getElementById('form')
 const modalBtn = document.getElementById('modal-btn')
